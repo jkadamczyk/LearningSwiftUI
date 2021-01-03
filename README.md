@@ -5,8 +5,8 @@ This repo contains project files that I created while following the new course A
 ## Results
 
 ### iPhone app
-![iPhone App]()
+![iPhone App](.//__gifs/ios.gif)
 ### Mac app
-![iPhone App]()
+![iPhone App](.//__gifs/mac.gif)
 ### Watch app
 ![Watch App](https://i.imgur.com/m0EIKwI.png)
