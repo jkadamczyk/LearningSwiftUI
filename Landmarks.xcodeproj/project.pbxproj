@@ -38,6 +38,10 @@
 		4D8AF4D025A10BB3007D0F91 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8AF4CF25A10BB3007D0F91 /* ProfileSummary.swift */; };
 		4D8AF4D525A10BFF007D0F91 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8AF4D425A10BFF007D0F91 /* HikeBadge.swift */; };
 		4D8AF4DA25A10EF0007D0F91 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8AF4D925A10EF0007D0F91 /* ProfileEditor.swift */; };
+		4DC3EF4F25A1EB0600C9B21F /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3EF4E25A1EB0600C9B21F /* PageViewController.swift */; };
+		4DC3EF5425A1EED800C9B21F /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3EF5325A1EED800C9B21F /* FeatureCard.swift */; };
+		4DC3EF6125A1EF5700C9B21F /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3EF6025A1EF5700C9B21F /* PageView.swift */; };
+		4DC3EF6625A1F2AE00C9B21F /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC3EF6525A1F2AE00C9B21F /* PageControl.swift */; };
 		4DDF3C1F259F55280062DA1D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4DDF3C1E259F55280062DA1D /* landmarkData.json */; };
 		4DDF3C24259F55460062DA1D /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF3C23259F55460062DA1D /* Landmark.swift */; };
 		4DDF3C29259F56020062DA1D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF3C28259F56020062DA1D /* ModelData.swift */; };
@@ -98,6 +102,10 @@
 		4D8AF4CF25A10BB3007D0F91 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		4D8AF4D425A10BFF007D0F91 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		4D8AF4D925A10EF0007D0F91 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
+		4DC3EF4E25A1EB0600C9B21F /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		4DC3EF5325A1EED800C9B21F /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		4DC3EF6025A1EF5700C9B21F /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		4DC3EF6525A1F2AE00C9B21F /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		4DDF3C1E259F55280062DA1D /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		4DDF3C23259F55460062DA1D /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		4DDF3C28259F56020062DA1D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -253,9 +261,21 @@
 			path = Profiles;
 			sourceTree = "<group>";
 		};
+		4DC3EF4D25A1E88500C9B21F /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3EF4E25A1EB0600C9B21F /* PageViewController.swift */,
+				4DC3EF5325A1EED800C9B21F /* FeatureCard.swift */,
+				4DC3EF6025A1EF5700C9B21F /* PageView.swift */,
+				4DC3EF6525A1F2AE00C9B21F /* PageControl.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
 		4DDF3C2D259F9CBD0062DA1D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4DC3EF4D25A1E88500C9B21F /* PageView */,
 				4D8AF4C925A104EA007D0F91 /* Profiles */,
 				4D8AF4B125A0EAD7007D0F91 /* Categories */,
 				4D8AF4A525A0CC24007D0F91 /* Hikes */,
@@ -422,11 +442,13 @@
 				4D8AF4C525A104D9007D0F91 /* Profile.swift in Sources */,
 				4D894BC7258BF17E008F0B6D /* ContentView.swift in Sources */,
 				4D8AF4B325A0EAED007D0F91 /* CategoryHome.swift in Sources */,
+				4DC3EF5425A1EED800C9B21F /* FeatureCard.swift in Sources */,
 				4D8AF4AB25A0CC24007D0F91 /* HikeGraph.swift in Sources */,
 				4D8AF48E25A0ADD0007D0F91 /* Badge.swift in Sources */,
 				4D894BF8258BF5B6008F0B6D /* MapView.swift in Sources */,
 				4D8AF4AA25A0CC24007D0F91 /* GraphCapsule.swift in Sources */,
 				4D894BC5258BF17E008F0B6D /* LandmarksApp.swift in Sources */,
+				4DC3EF6625A1F2AE00C9B21F /* PageControl.swift in Sources */,
 				4D8AF46725A0A561007D0F91 /* FavoriteButton.swift in Sources */,
 				4D8AF4C025A0F09E007D0F91 /* CategoryItem.swift in Sources */,
 				4D8AF4AC25A0CC24007D0F91 /* HikeDetail.swift in Sources */,
@@ -435,11 +457,13 @@
 				4D8AF4CB25A104F9007D0F91 /* ProfileHost.swift in Sources */,
 				4D8AF49925A0CB97007D0F91 /* Hike.swift in Sources */,
 				4D8AF48925A0AD97007D0F91 /* RotatedBadgeSymbol.swift in Sources */,
+				4DC3EF6125A1EF5700C9B21F /* PageView.swift in Sources */,
 				4D8AF48425A0AD11007D0F91 /* BadgeSymbol.swift in Sources */,
 				4D8AF4DA25A10EF0007D0F91 /* ProfileEditor.swift in Sources */,
 				4D894BF3258BF4C8008F0B6D /* CircleImage.swift in Sources */,
 				4D8AF4AD25A0CC24007D0F91 /* HikeView.swift in Sources */,
 				4D83BC85259FB1BA00A3C7DC /* LandmarkDetail.swift in Sources */,
+				4DC3EF4F25A1EB0600C9B21F /* PageViewController.swift in Sources */,
 				4D8AF47625A0A985007D0F91 /* BadgeBackground.swift in Sources */,
 				4D8AF4D525A10BFF007D0F91 /* HikeBadge.swift in Sources */,
 				4DDF3C24259F55460062DA1D /* Landmark.swift in Sources */,
@@ -600,6 +624,7 @@
 		4D894BE7258BF17E008F0B6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
@@ -620,6 +645,7 @@
 		4D894BE8258BF17E008F0B6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
